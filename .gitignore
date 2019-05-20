@@ -1,0 +1,5 @@
+.idea
+node_modules
+*snapshots__
+*.iml
+coverage
