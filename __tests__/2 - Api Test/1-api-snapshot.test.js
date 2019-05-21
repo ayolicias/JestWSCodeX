@@ -5,7 +5,7 @@ test.skip("Initial snapshot", async () => {
     uri: "https://api.publicapis.org/entries?Category=Books&https=true",
     json: true,
     resolveWithFullResponse: true,
-    rejectUnauthorized: false
+    rejectUnauthorized: true
   });
   expect(response.body).toMatchInlineSnapshot();
 });
