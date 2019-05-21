@@ -17,7 +17,7 @@ $ export NODE_TLS_REJECT_UNAUTHORIZED=0 && npm ci
 
 To run a test/s:
 ```bash
-$ jest --watchAll
+$ npm run test -- --watchAll
 ```
 
 ---------------

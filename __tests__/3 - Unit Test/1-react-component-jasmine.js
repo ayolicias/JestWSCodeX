@@ -9,5 +9,5 @@ test.skip('Link changes the class when hovered', () => {
       onClick={ () => console.log("hello") }
       className="fancy button"
     />);
-  expect(component.toJSON().props.disabled).toBeTruthy;
+  expect(component.toJSON().props.className).toEqual('fancy button');
 });
